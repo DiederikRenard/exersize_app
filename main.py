@@ -5,10 +5,10 @@ import os
 
 API_KEY = os.environ["ENV_API_KEY"]
 APP_ID = os.environ["ENV_APP_ID"]
-GENDER = "male"
-MY_WEIGHT = 85.0
-MY_HEIGHT = 182.0
-MY_AGE = 31
+GENDER = BIO_SEX #Pretty sure they mean biological sex here.
+MY_WEIGHT = WEIGHT_IN_kg
+MY_HEIGHT = HEIGHT_IN_CM
+MY_AGE = IN_YEARS
 
 headers = {
     "x-app-id": APP_ID,
